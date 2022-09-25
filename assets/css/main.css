@@ -30,10 +30,8 @@ a:hover{
 
 header{
     background-color:#8253D8;
-}
-
-header>div{
     display: flex;
+    justify-content: space-between;
 }
 
 #logo{
@@ -41,9 +39,7 @@ header>div{
 }
 
 nav{
-    display: flex;
     margin-top: 5vh;
-    margin-left: 40vw;
 }
 
 .social_media{
@@ -61,7 +57,7 @@ nav{
     background: linear-gradient(179.98deg, #8253D8 15.43%, #D05DDE 99.97%);
 
     display: flex;
-    padding-left: 8vw;
+    justify-content: space-around;
     padding-top: 5vh;
     padding-bottom: 5vh;;
 }
@@ -70,10 +66,6 @@ nav{
     font-weight: 400;
     font-size: 20px;
     line-height: 124%;
-}
-
-#screenshots{
-    padding-left: 10vw;
 }
 
 button{
@@ -147,10 +139,14 @@ footer{
 
     padding-top:5vh;
     padding-bottom: 5vh;
+
+    display: flex;
+    flex-direction: column;
 }
 
 #footer_top{
     display: flex;
+    justify-content: space-around;
 }
 
 #footer_top p{
@@ -159,9 +155,6 @@ footer{
 
 #footer_top div{
     max-width: 33vw;
-
-    padding-right: 5vw;
-    padding-left: 5vw;
     padding-bottom: 5vh;
 }
 
