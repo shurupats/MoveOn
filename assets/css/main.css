@@ -16,6 +16,15 @@ h2{
     line-height: 124%;
 }
 
+h3{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 124%;
+    color: #000000;
+}
+
 a{
     font-weight: 500;
     font-size: 20px;
@@ -131,6 +140,51 @@ button>img{
     letter-spacing: 0.08em;
     
     color: #ABABAB;
+}
+
+.functions_list{
+    display: flex;
+    justify-content: space-around;
+}
+
+#left_side{
+    text-align: right;
+    width: 30vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#right_side{
+    text-align: left;
+    width: 30vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#left_side p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 124%;
+    
+    text-align: right;
+    
+    color: #B0B0B0;
+}
+
+#right_side p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 124%;
+    
+    text-align: left;
+    
+    color: #B0B0B0;
 }
 
 footer{
