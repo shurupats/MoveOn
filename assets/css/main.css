@@ -67,8 +67,7 @@ nav{
 
     display: flex;
     justify-content: space-around;
-    padding-top: 5vh;
-    padding-bottom: 5vh;;
+    padding: 5vh;
 }
 
 #welcome_information p{
